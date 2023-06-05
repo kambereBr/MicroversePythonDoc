@@ -1,0 +1,94 @@
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    line-height: 30px;
+  }
+
+  body {
+    min-width: 290px;
+    background-color: #edebeb;
+    font-family: 'Open Sans', Arial, sans-serif, Verdana;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  #Introduction{
+    padding-top: 0px;
+  }
+
+  #navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+
+  .main-section {
+    margin: 50px 0;
+    padding: 20px;
+  }
+
+  .main-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  #main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 10px;
+    margin-bottom: 110px;
+  }
+
+  section article {
+    color: #4d4e53;
+    margin: 15px;
+    font-size: 0.96em;
+  }
+
+  section li {
+    margin: 15px 0px 0px 20px;
+  }
+
+  header {
+    color: black;
+    margin-left: auto;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  #Python_Documentation {
+    color: rgb(120, 153, 245);
+    left: auto;
+  }
+
+  code {
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    border-radius: 5px;
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+  }
+
+  @media only screen and (max-width: 800px) {
+    #navbar ul {
+      border: 1px solid;
+      height: 207px;
+    }
+  }
