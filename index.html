@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header id="Python_Documentation">Python Documentation</header>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#Getting_Started_with_Python">Getting Started with Python</a>
+      <a class="nav-link" href="#Basic_Syntax">Basic Syntax</a>
+      <a class="nav-link" href="#data_types">Data Types</a>
+      <a class="nav-link" href="#functions">Functions</a>
+    </nav>
+
+
+<main id="main-doc">
+
+  <section id="Introduction" class="main-section">
+    <header>Introduction</header>
+
+    <p>
+      Python is a general-purpose, high-level programming language. It was created in the late 1980s by Guido van Rossum, and has a design
+      philosophy that emphasizes code readability, notably
+      using significant whitespace.
+    </p>
+    <p>
+      Python is dynamically typed and garbage-collected, making it an attractive choice for rapid application development. It supports multiple programming paradigms,
+      including object-oriented, imperative, and functional programming.
+   </p>
+   <ul>
+     <li>Python is widely used in a variety of fields, including web development,
+        data science, scientific computing, and artificial intelligence. It has a large and active community of users, with a wealth of
+       libraries and frameworks that make it easy to get started with almost any project.</li>
+     <li>Python is known for its simplicity and ease of use, making it a popular choice for beginners and experienced programmers alike. Its readability and concise syntax make
+       it a great language for prototyping and testing ideas quickly.</li>
+    </ul>
+     </section>
+
+  <section id="Getting_Started_with_Python" class="main-section">
+
+      <header>Getting Started with Python</header>
+
+      <p>
+        To get started with Python, you will need to install it on your computer. You can download the latest version of Python from the official website.
+        There are two main versions of Python: Python 2 and Python 3. Python 3 is the most recent version and is recommended for new users.
+      </p>
+      <p>
+        Python is dynamically typed and garbage-collected, making it an attractive choice for rapid application development. It supports multiple programming paradigms,
+        including object-oriented, imperative, and functional programming.
+     </p>
+     <p>Once you have Python installed, you can start using it in a few different ways:</p>
+     <ul>
+       <li>Interactive interpreter: You can open up a Python interpreter and start typing commands to see their output immediately.
+         This is a great way to try out small snippets of code and see how they work.</li>
+       <li>Scripts: You can also write Python code in a text editor and save it as a script with a .py extension.
+         You can then run the script from the command line by typing "python script.py".</li>
+        <li>IDLE (Integrated Development Environment): IDLE is a graphical user interface (GUI) that comes with Python.
+          It provides a text editor for writing code and a debugger for finding and fixing errors.</li>
+      </ul>
+    </section>
+    <section id="Basic_Syntax" class="main-section">
+      <header>Basic Syntax</header>
+      <p>
+        Python is a high-level, dynamically-typed programming language that is known for its simplicity and readability.
+        It uses indentation to define blocks of code and has a simple syntax, making it easy for beginners to learn.
+      </p>
+      <p>
+        Here are some basic elements of Python syntax:
+     </p>
+     <ul>
+       <li>Variables: In Python, you can assign values to variables using the assignment operator (=). For example:</li>
+      </ul>
+      <code>x = 10
+        y = "hello"
+      </code>
+        <ul>
+          <li>Data types: Python has several built-in data types, including integers, floating-point numbers, strings, and booleans.
+            You can use the built-in function type() to determine the type of a value. For example:</li>
+         </ul>
+         <code>x = 10
+            y = "hello"
+            z = True
+
+            print(type(x))  # Output: <class 'int'>
+            print(type(y))  # Output: <class 'str'>
+            print(type(z))  # Output: <class 'bool'>
+          </code>
+          <ul>
+            <li>Operators: Python has various operators for performing arithmetic, comparison, and logical operations. For example:</li>
+           </ul>
+           <code>x = 10
+              y = 20
+
+              # Arithmetic operators
+              print(x + y)  # Output: 30
+              print(x - y)  # Output: -10
+              print(x * y)  # Output: 200
+              print(x / y)  # Output: 0.5
+
+              # Comparison operators
+              print(x == y)  # Output: False
+              print(x > y)   # Output: False
+              print(x < y)   # Output: True
+
+              # Logical operators
+              print(x > 5 and y < 25)  # Output: True
+              print(x > 15 or y < 25)  # Output: True
+            </code>
+        <section id="data_types" class="main-section">
+          <header>Data Types</header>
+          <p>Python has a variety of data types, including integers,
+            floats, strings, and booleans. In this section, we'll cover the basics
+            of each data type and how to use them in your code.
+          </p>
+          <ul>
+            <li>Integers</li>
+            <li>Floats</li>
+            <li>Strings</li>
+            <li>Booleans</li>
+            <li>Type conversion</li>
+          </ul>
+        </section>
+        <section id="functions" class="main-section">
+            <header>Functions</header>
+            <p>Functions are reusable blocks of code that can be called from other parts of your program.
+              They are an essential part of Python programming, and are used to perform specific tasks or actions.
+            </p>
+            <p>
+              Defining a function
+              To define a function in Python, you use the def keyword followed by
+              the name of the function, a set of parentheses, and a colon.
+              The code block that follows is the body of the function, and is indented to show
+              that it is part of the function.
+            </p>
+            <ul>
+              <li>Here is an example of a simple function that prints a message to the console:</li>
+            </ul>
+            <code>def greet():
+                  print("Hello, world!")
+            </code>
+
+            <p>
+              Calling a function
+            </p>
+            <ul>
+              <li>To call a function in Python, you simply use its name followed by a set of parentheses. For example:</li>
+            </ul>
+            <code>greet()</code>
+            <p>Arguments and parameters
+          Functions can accept arguments, which are values that are passed to the function when it is called.
+          These arguments are called parameters when they are defined in the function.
+          </p>
+          <ul>
+            <li>Here is an example of a function that takes an argument and prints a message to the console:</li>
+          </ul>
+          <code>
+            def greet(name):
+              print("Hello, " + name + "!")
+          </code>
+          <code>
+            greet("John")  # prints "Hello, John!"
+            greet("Jane")  # prints "Hello, Jane!"
+          </code>
+        </section>
+
+    </section>
+   </main>
+ </body>
+</html>
